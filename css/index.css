@@ -1,16 +1,27 @@
 * {
     font-family: cursive;
     box-sizing: border-box;
+    overflow-y: visible;
+    height: auto;
+}
+
+h1, h2, p {
+    color: #D7D9E1;
 }
 
 html {
-    background-color: white;
+    background-color: #1F2228;
+}
+
+html, body {
+    overflow-y: visible;
+    height: auto;
 }
 
 body {
-    border: double, 24px;
-    background-color:red;
-    position: fixed;
+    border: solid, 2px;
+    left: auto;
+    border-color: darkgray;
 }
 
 header {
@@ -22,18 +33,28 @@ header > h1, header > p {
     text-align: center;
 }
 
-body > h2 {
+body > p {
     padding: 32px;
+    text-align: left;
+}
+
+div.project1, div.project2 {
     text-align: center;
+}
+
+img {
+    max-width: 100%;
+    border: dotted, #D7D9E1;
+    color: #D7D9E1;
 }
 
 aside {
     display: grid;
     flex-direction: column;
-    background-color: lightgreen;
+    background-color: #28923C;
     border: dotted;
     margin-top: 32px;
-    position: fixed;
+    float: right;
     right: 8px;
     width: 200px;
     height: fit-content;
