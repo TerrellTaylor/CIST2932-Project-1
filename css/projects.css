@@ -1,6 +1,8 @@
 * {
     font-family: cursive;
     box-sizing: border-box;
+    overflow-y: visible;
+    height: auto;
 }
 
 h1, h2, p {
@@ -9,12 +11,16 @@ h1, h2, p {
 
 html {
     background-color: #1F2228;
-    overflow: auto;
+}
+
+html, body {
+    overflow-y: visible;
+    height: auto;
 }
 
 body {
     border: solid, 2px;
-    position: fixed;
+    left: auto;
     border-color: darkgray;
 }
 
@@ -32,9 +38,13 @@ body > p {
     text-align: left;
 }
 
+div.project1, div.project2 {
+    text-align: center;
+}
+
 img {
-    width: fit-content;
-    height: fit-content;
+    max-width: fit-content;
+    max-height: fit-content;
     border: dotted, #D7D9E1;
     color: #D7D9E1;
 }
@@ -45,7 +55,7 @@ aside {
     background-color: #28923C;
     border: dotted;
     margin-top: 32px;
-    position: fixed;
+    float: right;
     right: 8px;
     width: 200px;
     height: fit-content;
