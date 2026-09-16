@@ -33,6 +33,9 @@ body > p {
 
 img {
     width: fit-content;
+    height: fit-content;
+    border: dotted, #D7D9E1;
+    color: #D7D9E1;
 }
 
 aside {
