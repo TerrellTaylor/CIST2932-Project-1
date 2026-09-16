@@ -1,5 +1,5 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: cursive;
     box-sizing: border-box;
 }
 
@@ -9,6 +9,7 @@ h1, h2, p {
 
 html {
     background-color: #1F2228;
+    overflow: auto;
 }
 
 body {
