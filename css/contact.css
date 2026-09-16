@@ -1,0 +1,42 @@
+* {
+    font-family: cursive;
+}
+
+body {
+    border: double, 24px;
+    background-color:red;
+    position: fixed;
+}
+
+header {
+    display: flexbox;
+    align-items: center;
+}
+
+header > h1, header > p {
+    text-align: center;
+}
+
+body > p {
+    padding: 32px;
+    max-width: fit-content;
+    max-height: fit-content;
+    text-align: center;
+}
+
+aside {
+    display: flex;
+    background-color: lightgray;
+    border: dotted;
+    position: fixed;
+    right: 24px;
+    width: 200px;
+    height: fit-content;
+}
+
+footer {
+    background-color: gray;
+    position: fixed;
+    bottom: 0px;
+    border: thin;
+}
