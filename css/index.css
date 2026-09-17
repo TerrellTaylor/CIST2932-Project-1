@@ -18,9 +18,12 @@ html, body {
     height: auto;
 }
 
+a {
+    color: #4BA0FF;
+}
+
 body {
     border: solid, 2px;
-    left: auto;
     border-color: darkgray;
 }
 
@@ -45,6 +48,10 @@ div.project1, div.project2 {
 img {
     max-width: 100%;
     border: dotted, #D7D9E1;
+    color: #D7D9E1;
+}
+
+aside > nav > ul > li > a {
     color: #D7D9E1;
 }
 
