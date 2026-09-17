@@ -2,7 +2,7 @@
     font-family: cursive;
 }
 
-h1, h2, p {
+h1, h2, h3, p {
     color: #D7D9E1;
 }
 
@@ -29,6 +29,14 @@ header {
     text-align: center;
 }
 
+body > h2 {
+    padding: 16px;
+}
+
+body > h3 {
+    padding: 24px;
+}
+
 body > p {
     padding: 32px;
     text-align: left;
@@ -39,7 +47,7 @@ div.project1, div.project2 {
 }
 
 section {
-    display: block;
+    display: grid;
     left: auto;
     float: left;
     flex-direction: column;
