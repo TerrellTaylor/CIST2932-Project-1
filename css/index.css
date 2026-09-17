@@ -21,20 +21,11 @@ a {
 body {
     border: solid, 2px;
     border-color: darkgray;
-    max-width: fit-content;
-    max-height: fit-content;
-    top: auto;
-    left: auto;
-    bottom: auto;
-    right: auto;
 }
 
 header {
     display: flexbox;
     align-items: center;
-}
-
-header > h1, header > p {
     text-align: center;
 }
 
@@ -73,13 +64,13 @@ aside > nav > ul > li > a {
 
 aside {
     display: grid;
+    float: right;
     flex-direction: column;
     background-color: #28923C;
+    position: sticky;
     border: dotted;
     margin-top: 32px;
-    float: right;
     right: 8px;
-    left: 500px;;
     width: 200px;
     height: fit-content;
 }
