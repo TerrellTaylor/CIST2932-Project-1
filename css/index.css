@@ -1,8 +1,5 @@
 * {
     font-family: cursive;
-    box-sizing: border-box;
-    overflow-y: visible;
-    height: auto;
 }
 
 h1, h2, p {
@@ -15,7 +12,6 @@ html {
 
 html, body {
     overflow-y: visible;
-    height: auto;
 }
 
 a {
@@ -25,6 +21,12 @@ a {
 body {
     border: solid, 2px;
     border-color: darkgray;
+    max-width: fit-content;
+    max-height: fit-content;
+    top: auto;
+    left: auto;
+    bottom: auto;
+    right: auto;
 }
 
 header {
@@ -45,6 +47,20 @@ div.project1, div.project2 {
     text-align: center;
 }
 
+section {
+    display: block;
+    left: auto;
+    float: left;
+    flex-direction: column;
+    max-width: fit-content;
+    max-height: fit-content;
+}
+
+iframe {
+    width: 1000px;
+    height: 2000px;
+}
+
 img {
     max-width: 100%;
     border: dotted, #D7D9E1;
@@ -63,6 +79,7 @@ aside {
     margin-top: 32px;
     float: right;
     right: 8px;
+    left: 500px;;
     width: 200px;
     height: fit-content;
 }
